@@ -1,3 +1,7 @@
+name: using worklow ex4
+on: 
+  workflow_dispatch:
+
 jobs:
   call-workflow-passing-data:
     uses: hurtrobotic/gitopstraining-my-react-app/.github/workflows/ex4.yaml@main
