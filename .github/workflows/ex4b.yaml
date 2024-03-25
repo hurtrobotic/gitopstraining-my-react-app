@@ -1,0 +1,5 @@
+jobs:
+  call-workflow-passing-data:
+    uses: hurtrobotic/gitopstraining-my-react-app/.github/workflows/ex4.yaml@main
+    with:
+      node-version: '3'
